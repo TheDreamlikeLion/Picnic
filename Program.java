@@ -18,5 +18,7 @@ public class Program {
         int topLimit = 5;
         System.out.println("\tТоп " + topLimit + " самых часто упоминаемых продуктов: ");
         printListWordsCounts(countWords(data), topLimit);
+        System.out.println("\n\tДанные упоминаемости продуктов: ");
+        printListWordsCounts(countWords(data), countWords(data).size());
     }
 }
